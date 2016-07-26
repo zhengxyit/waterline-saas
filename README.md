@@ -8,10 +8,12 @@
 > this.multitenant = Object.getPrototypeOf(this).hasOwnProperty('multitenant') ? this.multitenant : true;
 ```
 
-> blew his._attributes = _.clone(this.attributes); add
+> blew this._callbacks = schemaUtils.normalizeCallbacks(this);; add
 ```javascript
   // if multitenant==true add tenantId
   if(this.multitenant){
       this._attributes.tenantId = {type: 'string', size: 20};
   }
 ```
+
+others look at commit
