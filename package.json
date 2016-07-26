@@ -1,7 +1,7 @@
 {
   "name": "waterline",
   "description": "An ORM for Node.js and the Sails framework",
-  "version": "0.12.2",
+  "version": "0.11.3",
   "homepage": "http://github.com/balderdashy/waterline",
   "contributors": [
     {
@@ -22,25 +22,25 @@
     }
   ],
   "dependencies": {
-    "anchor": "~0.11.2",
+    "anchor": "~0.11.0",
     "async": "1.5.2",
     "bluebird": "3.2.1",
-    "deep-diff": "0.3.4",
+    "deep-diff": "0.3.3",
     "lodash": "3.10.1",
-    "prompt": "1.0.0",
-    "switchback": "2.0.1",
-    "waterline-criteria": "1.0.1",
+    "prompt": "0.2.14",
+    "switchback": "2.0.0",
+    "waterline-criteria": "~0.11.2",
     "waterline-schema": "0.2.0"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "0.3.2",
-    "eslint": "2.11.1",
-    "espree": "3.1.5",
-    "istanbul": "0.4.3",
-    "mocha": "2.5.3",
+    "codeclimate-test-reporter": "0.3.1",
+    "eslint": "1.10.3",
+    "espree": "3.0.1",
+    "istanbul": "0.4.2",
+    "mocha": "2.4.5",
     "sails-memory": "balderdashy/sails-memory",
-    "should": "9.0.0",
-    "waterline-adapter-tests": "balderdashy/waterline-adapter-tests"
+    "should": "8.2.1",
+    "waterline-adapter-tests": "balderdashy/waterline-adapter-tests#0.11.x"
   },
   "keywords": [
     "mvc",
