@@ -12,7 +12,7 @@
 ```javascript
   // if multitenant==true add tenantId
   if(this.multitenant){
-      this._attributes.tenantId = {type: 'string', size: 20};
+      this._attributes.tenantId = {type: 'text'};
   }
 ```
 
