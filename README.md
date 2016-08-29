@@ -5,7 +5,10 @@
 # 2 modify waterline/core/index.js
 > blew options(row 25)
 ```javascript
-> this.multitenant = Object.getPrototypeOf(this).hasOwnProperty('multitenant') ? this.multitenant : true;
+> this.multitenant = true;
+      if (Object.getPrototypeOf(this).multitenant == false) {
+          this.multitenant = false;
+      }
 ```
 
 > blew this._callbacks = schemaUtils.normalizeCallbacks(this);; add
